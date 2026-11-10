@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "note": "Source de vérité : ce dépôt (branche sandbox-hermetic). L'archive du bundle est un produit de build, vérifiable par ce pointeur ; elle ne contient pas ce fichier (anti-circularité) : elle a été construite à partir du commit amont upstream_base, avant le pointeur.",
+  "upstream_base": "07a86b1041531bfa0bec1006d9c0993985fee560",
+  "branch": "sandbox-hermetic",
+  "version": "0.25.1",
+  "built": "2026-11-09",
+  "runtimes": {
+    "node": "24.22.1",
+    "pnpm": "10.33.2",
+    "platform": "linux/x86_64"
+  },
+  "dependencies": {
+    "source": "registre npm (registry.npmjs.org) via pnpm ; binaire better-sqlite3 : prébuild GitHub Releases ; node-pty compilé depuis la source",
+    "verified_by": "intégrité sha512 du pnpm-lock.yaml (pnpm install --frozen-lockfile) ; MANIFEST.sha256 (SHA-256 de chaque fichier) dans l'archive",
+    "stored_in_git": true,
+    "stored_in": "branche orpheline bundle-hermetique-v0.25.1 de ce dépôt (fork PUBLIC), 4 parties de 90 Mo",
+    "licence_review": "binaire ffmpeg GPLv3, sharp-libvips LGPL, gsap (licence propre) : voir LICENSES/NOTICE.md dans l'archive avant toute redistribution",
+    "approx_size": {
+      "archive_bytes": 326416266,
+      "unpacked_mb": 800,
+      "node_modules_mb": 350
+    },
+    "counts": {
+      "lockfile_packages": 1342,
+      "resolved_and_downloaded_at_build": 1042,
+      "never_downloaded": 300,
+      "shipped_production": 330
+    },
+    "counts_note": "Le build n'a installé que racine + daemon + front (pnpm --filter) : 1042 paquets téléchargés sur 1342 ; 330 paquets de production du daemon sont livrés, le reste est de l'outillage de build ou du front exporté en statique.",
+    "refetch": "bash scripts/vendor.sh (dans l'archive ; réseau ; construction uniquement ; non rejoué de bout en bout)"
+  },
+  "lockfiles_sha256": {
+    "pnpm-lock.yaml": "560f699f0c49a5c5574d7af2a0e49de7db68c6e64ef6a5b3025643055b9d58d6",
+    "pnpm-workspace.yaml": "0cb9be89bc7c9e3d3db1633c0ab93a9bb4b976f4eee4d4197b953419f9de3bf6",
+    "package.json": "e0c8a177803036da63c1b94f9d7c45efc4a260db791a5c913b0a3d8050ce686f"
+  },
+  "bundle": {
+    "repo": "Metba09/open-design (fork public), branche orpheline bundle-hermetique-v0.25.1",
+    "orphan_commit": "bf6143c299d9717fd756a990bbb6d5413f45a1b3",
+    "memory_mirror": "Metba09/claude-memory (privé), livrables/open-design-sandbox/ : README, SHA256SUMS, restore.sh (pas d'archive : règle < 40 Mo)",
+    "path": "livrables/open-design-sandbox/",
+    "tarball": "open-design-bundle-v0.25.1.tar.gz",
+    "tarball_sha256": "e68b434df796359b6ef7e8b4878f7fe7a46b2d93eff8fa9f28e09b73611c84b9",
+    "tar_root": "open-design-bundle",
+    "parts": [
+      {
+        "name": "open-design-bundle-v0.25.1.tar.gz.part00",
+        "sha256": "2cd1c8ce0d3b7f8dd30c065c84ec484128d8d5a14fbafbf3c1038dda04d69021"
+      },
+      {
+        "name": "open-design-bundle-v0.25.1.tar.gz.part01",
+        "sha256": "59b080e57938f208bafa62fd99d423ece2cab071fdf17766d102e1a8d6d83fc6"
+      },
+      {
+        "name": "open-design-bundle-v0.25.1.tar.gz.part02",
+        "sha256": "1e8de33a4c4bf2ef37d329d6ff380b9d424323a33971b5a6ffbb1f770db97e88"
+      },
+      {
+        "name": "open-design-bundle-v0.25.1.tar.gz.part03",
+        "sha256": "49d45ec76625758ea325d8d83e617f4dc948490422835625e344d9267cd51bb1"
+      }
+    ],
+    "source_commit": "07a86b1041531bfa0bec1006d9c0993985fee560"
+  }
+}
