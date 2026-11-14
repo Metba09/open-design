@@ -1,0 +1,9 @@
+{
+ "source_repo": "Metba09/Codebase",
+ "source_sha": "06e8373b94daed6846f8308353b9f08fd0a558f8",
+ "lock_sha256": "560f699f0c49a5c5574d7af2a0e49de7db68c6e64ef6a5b3025643055b9d58d6",
+ "node": "v24.22.2",
+ "pnpm": "10.33.2",
+ "platform": "linux-x64",
+ "archive_mb": 749
+}
