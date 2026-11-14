@@ -1,0 +1,255 @@
+{
+ "nodes_by_kind": {
+  "property": 34605,
+  "function": 31621,
+  "import": 26769,
+  "constant": 12848,
+  "file": 5423,
+  "type_alias": 4135,
+  "interface": 3985,
+  "method": 2325,
+  "variable": 1492,
+  "route": 464,
+  "class": 356,
+  "component": 26
+ },
+ "edges_by_kind": {
+  "calls": 158513,
+  "contains": 118162,
+  "references": 48953,
+  "imports": 44790,
+  "instantiates": 1886,
+  "implements": 14,
+  "extends": 8,
+  "navigates": 4
+ },
+ "top_files_by_nodes": [
+  [
+   "apps/web/src/i18n/types.ts",
+   5594
+  ],
+  [
+   "apps/web/src/components/FileViewer.tsx",
+   887
+  ],
+  [
+   "packages/contracts/src/analytics/events/result-events.ts",
+   791
+  ],
+  [
+   "apps/daemon/src/server.ts",
+   771
+  ],
+  [
+   "apps/web/src/components/ProjectView.tsx",
+   665
+  ],
+  [
+   "packages/contracts/src/analytics/events/ui-click.ts",
+   662
+  ],
+  [
+   "apps/web/src/components/FileWorkspace.tsx",
+   589
+  ],
+  [
+   "packages/contracts/src/api/projects.ts",
+   468
+  ],
+  [
+   "apps/web/src/components/ChatPane.tsx",
+   465
+  ],
+  [
+   "packages/contracts/src/api/chat.ts",
+   444
+  ],
+  [
+   "apps/web/src/components/DesignSystemFlow.tsx",
+   391
+  ],
+  [
+   "apps/daemon/src/cli.ts",
+   388
+  ],
+  [
+   "apps/web/src/components/ChatComposer.tsx",
+   383
+  ],
+  [
+   "packages/sidecar-proto/src/index.ts",
+   382
+  ],
+  [
+   "packages/contracts/src/api/collab.ts",
+   345
+  ],
+  [
+   "apps/web/src/components/HomeHero.tsx",
+   339
+  ],
+  [
+   "apps/web/src/components/SettingsDialog.tsx",
+   333
+  ],
+  [
+   "apps/daemon/src/langfuse-trace.ts",
+   325
+  ],
+  [
+   "packages/contracts/src/api/share.ts",
+   325
+  ],
+  [
+   "apps/web/src/App.tsx",
+   312
+  ],
+  [
+   "packages/contracts/src/api/registry.ts",
+   312
+  ],
+  [
+   "apps/web/src/components/EntryShell.tsx",
+   306
+  ],
+  [
+   "apps/web/src/providers/registry.ts",
+   299
+  ],
+  [
+   "e2e/specs/win.spec.ts",
+   299
+  ],
+  [
+   "apps/daemon/src/integrations/vela.ts",
+   295
+  ]
+ ],
+ "top_called_symbols": [
+  [
+   "varRef",
+   "apps/daemon/src/brands/engine/types.ts",
+   874
+  ],
+  [
+   "test",
+   "e2e/lib/playwright/suite.ts",
+   801
+  ],
+  [
+   "exit",
+   "packages/launcher/src/types.ts",
+   605
+  ],
+  [
+   "ok",
+   "e2e/lib/playwright/skill-fixture-cleanup.ts",
+   521
+  ],
+  [
+   "click",
+   "apps/desktop/src/main/runtime.ts",
+   428
+  ],
+  [
+   "openDatabase",
+   "apps/daemon/src/db.ts",
+   401
+  ],
+  [
+   "setItem",
+   "apps/web/src/collab/invite-continuation.ts",
+   332
+  ],
+  [
+   "I18nProvider",
+   "apps/web/src/i18n/index.tsx",
+   310
+  ],
+  [
+   "Icon",
+   "apps/web/src/components/Icon.tsx",
+   271
+  ],
+  [
+   "clear",
+   "apps/web/src/components/HomeHero.tsx",
+   257
+  ],
+  [
+   "getProject",
+   "apps/daemon/src/db.ts",
+   251
+  ],
+  [
+   "expect",
+   "packages/contracts/src/prompts/canonical-xml.ts",
+   247
+  ],
+  [
+   "startServer",
+   "apps/daemon/src/server.ts",
+   245
+  ],
+  [
+   "listen",
+   "apps/web/src/hooks/useEventStream.ts",
+   235
+  ],
+  [
+   "useT",
+   "apps/web/src/i18n/index.tsx",
+   220
+  ],
+  [
+   "closeDatabase",
+   "apps/daemon/src/db.ts",
+   216
+  ],
+  [
+   "insertProject",
+   "apps/daemon/src/db.ts",
+   213
+  ],
+  [
+   "buildWorkspacePermissions",
+   "packages/contracts/src/api/collab.ts",
+   213
+  ],
+  [
+   "writeAcpResult",
+   "apps/daemon/tests/acp.test.ts",
+   204
+  ],
+  [
+   "currentWorkspaceAccountGeneration",
+   "apps/web/src/collab/workspace-identity.ts",
+   200
+  ],
+  [
+   "getWorkspaceProjectByProjectId",
+   "apps/daemon/src/db.ts",
+   192
+  ],
+  [
+   "workspaceProjectHeaders",
+   "apps/web/src/collab/workspace-identity.ts",
+   190
+  ],
+  [
+   "buildTurnBlocks",
+   "apps/web/src/runtime/chat/build-turn-blocks.ts",
+   183
+  ],
+  [
+   "send",
+   "apps/web/src/analytics/events.ts",
+   182
+  ],
+  [
+   "readAppConfig",
+   "apps/daemon/src/app-config.ts",
+   178
+  ]
+ ]
+}

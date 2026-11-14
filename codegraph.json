@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "design-systems/",
+    "design-templates/",
+    "assets/",
+    "mocks/",
+    "data/",
+    "plugins/_official/examples/",
+    "**/*.min.js",
+    "**/fixtures/**"
+  ]
+}
